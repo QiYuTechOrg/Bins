@@ -22,3 +22,7 @@ help:
 
 format:
 	poetry run black source
+
+.PHONY: fast-build
+fast-build:
+	make html
